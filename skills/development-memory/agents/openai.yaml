@@ -1,0 +1,11 @@
+interface:
+  display_name: "Development Memory"
+  short_description: "Retrieve and capture scoped development knowledge"
+  default_prompt: "Use $development-memory to retrieve relevant engineering knowledge and capture confirmed changes."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "development_memory"
+      description: "Local Basic Memory limited to the configured development directory"
+policy:
+  allow_implicit_invocation: true

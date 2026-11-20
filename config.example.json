@@ -1,0 +1,11 @@
+{
+  "work_roots": ["~/Projects"],
+  "knowledge_dir": "~/Documents/ObsidianVault/Development",
+  "codex_home": "~/.codex",
+  "skills_dir": "~/.agents/skills",
+  "memory_state_dir": "~/.basic-memory-development",
+  "basic_memory_command": "~/.local/bin/basic-memory",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "semantic_min_similarity": 0.4
+}
